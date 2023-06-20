@@ -148,7 +148,8 @@ table#tabelaspec td {
     padding: 10px; /* empurra pra dentro */
 }
 
-table#tabelaspec td.ce /* pode ser tbm apenas td.ce */ {
+/* pode ser tbm apenas td.ce */
+table#tabelaspec td.ce  {
     background-color: #606060;
     color: #fff;
     vertical-align: top;
