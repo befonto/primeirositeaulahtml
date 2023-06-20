@@ -58,12 +58,6 @@ nav#menum li a {
     text-decoration: none; /* remove o sublinhado do link */
 }
 
-/* ao passar o mouse sobre o link (tag a) */
-nav#menum a:hover {
-; /* branco */
-
-}
-
 img#icone {
     widht: 100px;
     height: 100px;
@@ -98,8 +92,7 @@ article#noticia-principal h1 {
 article#noticia-principal h2 {
     font-size: 13pt;
     color: #87CEEB;
-    padding: 5px 0px 5px 5px; /* top, right, bottom, left */
-    margin: 10px 0px 10px 350px;
+    text-align: center;
 }
 
 article#noticia-principal h3 {
@@ -118,7 +111,7 @@ article#noticia-principal h4 {
 
 article#noticia-principal h1.info {
     font-family: 'FonteLogo', sans-serif;
-    font-size: 15pt;´~
+    font-size: 15pt;
     color: #606060;
     background: none;
     margin-left: -5px;
@@ -139,6 +132,29 @@ hgroup#cabecalho-noticia-principal h3 {
     background-color: #ddd;
     padding: 5px 0px 5px 10px; /* top, right, bottom, left */
     margin: 10px 0px 10px 0px;
+}
+
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px; /* espaçamento entre bordas */
+    margin: auto; /* centralizar a tabela */
+}
+
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 10px; /* empurra pra dentro */
+}
+
+table#tabelaspec td.ce /* pode ser tbm apenas td.ce */ {
+    background-color: #606060;
+    color: #fff;
+    vertical-align: top;
+    text-align: right;
+    font-weight: bolder; /* negrito */
+}
+
+table#tabelaspec td.cd {
+    background-color: #cecece;
 }
 
 p a {

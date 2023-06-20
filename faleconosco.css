@@ -8,7 +8,7 @@ body {
 }
 
 div#interface {
-position: relative; /* transforma a div em um container */
+    position: relative; /* transforma a div em um container */
     background-color: #fff; /* branco */
     width: 900px;
     margin: -20px auto 0px auto; /* para saber posição que cada um ocupa, imaginar um relógio -- se só tiver dois números, o primeiro vale para o de cima e de baixo e o segundo vale para esquerda e direita. */
@@ -39,8 +39,8 @@ nav#menum ul {
     list-style: none; /* para remover marcadores da lista */
     text-transform: uppercase; /* converter para maiúsculas */
     position: absolute; /* para que o menu possa ser colocado no topo, é preciso virar absoluto */
-    top: 85px; /* posicionado ao topo. valor negativo para empurrar além da borda */
-    right: 5px; /* posicionado à direita no topo */
+    top: 78px; /* posicionado ao topo. valor negativo para empurrar além da borda */
+    right: 13px; /* posicionado à direita no topo */
 }
 
 nav#menum li {
@@ -53,11 +53,6 @@ nav#menum li {
 
 /* hover para efeito do mouse ao passar sobre o li */
 
-nav#menum li {
-    color: #000; /* preto */
-    text-decoration: none; /* remove o sublinhado do link */
-}
-
 nav#menum li a {
     color: #000; /* preto */
     text-decoration: none; /* remove o sublinhado do link */
@@ -65,8 +60,7 @@ nav#menum li a {
 
 /* ao passar o mouse sobre o link (tag a) */
 nav#menum a:hover {
-    color: #fff; /* branco */
-    text-decoration: underline; /* sublinhado */
+
 }
 
 img#icone {
@@ -80,8 +74,8 @@ nav#menu {
     padding: 10px;
     float: right;
 	position: absolute;
-    left: 5px;
-    top: 100px;
+    left: 10px;
+    top: 95px;
 }
 
 section#corpo {
@@ -124,14 +118,22 @@ hgroup#cabecalho-noticia-principal h3 {
     margin: 10px 0px 10px 0px;
 }
 
+nav#menu {
+    padding: 10px;
+    float: right;
+    position: absolute;
+    left: 10px;
+    top: 95px;
+}
+
 form {
     width: 500px;
     margin: auto; /*centralizar*/
 }
 
 input, textarea {
-    font-family: sans-serif;
-    font-weight: normal; /* remover qualquer negrito que exista */
+   font-family: sans-serif;
+    font-weight: normal;
     font-size: 13pt;
     background-color: rgba(255, 255, 255, 0.7);
 }
@@ -147,21 +149,8 @@ legend {
     font-family: sans-serif;
 }
 
-fieldset {
-    border-color: #cecece; /* cinza claro */
-    margin: 20px;
-}
-
-fieldset#idSexo {
-    width: 150px;
-}
-
 fieldset#idUsuario {
     background: url("imagens/icone-contato.png") no-repeat 95% 95%;
-}
-
-fieldset#idEndereco {
-    background: url("imagens/icone-endereco.png") no-repeat 95% 95%;
 }
 
 fieldset#idMensagem {
@@ -187,3 +176,4 @@ footer#rodape {
     border-top: 1px solid #606060;
     text-align: center;
 }
+

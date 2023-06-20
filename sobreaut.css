@@ -82,7 +82,7 @@ nav#menu {
 section#corpo {
     display: block;
     position: relative;
-    width: 520px;
+    width: 530px;
     float: left;
     border-right: 1px solid #606060;
     margin-left: 458px;
@@ -141,7 +141,7 @@ figure.foto-legenda figcaption {
     color: white;
     width: 95%;
     height: 100%;
-    padding: 20px;
+    padding: 0px;
     box-sizing: border-box;
     transition: opacity 1s;
     margin-left: 10px;
@@ -247,7 +247,7 @@ figure.p2 {
     box-shadow: 1px 1px 4px black; /* horizontal vertical difusão cor da sombra */
     margin-left: 50px;
     width: 250px;
-    height: 250px;
+    height: 230px;
     margin-bottom: 40px;
 }
 
