@@ -149,14 +149,6 @@ legend {
     font-family: sans-serif;
 }
 
-fieldset#idUsuario {
-    background: url("imagens/icone-contato.png") no-repeat 95% 95%;
-}
-
-fieldset#idMensagem {
-    background: url("imagens/icone-mensagem.png") no-repeat 95% 95%;
-}
-
 p a {
    text-decoration: none;
 }
